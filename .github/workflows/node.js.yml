@@ -26,5 +26,3 @@ jobs:
       - run: npm ci
       - run: npm run build --if-present
       - run: npm test
-      - name: push changes
-        uses: ad-m/github-push-action@master

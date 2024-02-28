@@ -28,5 +28,3 @@ jobs:
       - run: npm test
       - name: push changes
         uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.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}}
